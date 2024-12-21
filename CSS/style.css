@@ -62,8 +62,8 @@ body{
     font-size: 55px ;
 }
 .in{
-   width: 20vh;
-   height: 15vh;
+   width: 28%;
+   height: 15%;
    border: 1px solid white ;
    background-color: orange;
    color: white;
@@ -136,6 +136,34 @@ h1:hover{
 .idright>p>a:active{
     color: green;
 }
+@media (max-width :1035px) {
+    
+ .body{
+    display: flex;
+    flex-direction: column;
+ }
+ .left h1{
+    font-size: 54px;
+    font-weight: 100;
+    transition: all 1s ease;
+}
+.left p{
+    font-size: 20px;
+}
+.right{
+    width : 80vw;
+    height: 80vh;
+    margin-left: 0%;
+}
+.idright{
+    width : 60vw;
+    height: 25vh; 
+    margin: auto;
+}
+in{
+    height: 25%;
+}
 
+}
 
 
