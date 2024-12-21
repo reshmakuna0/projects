@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Playwrite+NZ+Guides&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(131, 205, 131, 0.1);
+}
+.body{
+    display: flex;
+}
+.left{
+    width : 80vw;
+    height: 80vh;
+    background-color: white;
+    background-image: linear-gradient(to bottom right, orange, white ,green);
+}
+.left img{
+    height: 55vh;
+    width: 30vw;
+    float: left;
+    margin: 3vh;
+    margin-top: 5vh;
+    
+}
+.left h1{
+    font-family: "Lavishly Yours", cursive;
+    font-size: 66px;
+    font-weight: 100;
+    transition: all 1s ease;
+}
+.left p{
+    font-size: 30px;
+}
+.right{
+    width : 40vw;
+    height: 70vh;
+    margin: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3vh;
+    background-color:rgba(131, 205, 131, 0.2);
+}
+.idright{
+    width : 30vw;
+    height: 15vh;   
+    margin: auto;
+    background-color: rgba(222, 101, 32, 0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.left>p::first-letter{
+    color: green;
+    font-size: 55px ;
+}
+.in{
+   width: 250px;
+   height: 80px;
+   border: 1px solid white ;
+   background-color: orange;
+   color: white;
+   padding: 5vh;
+   text-align: center;
+}
+
+.in:hover{
+ transform :scale(1.2);
+}
+h1:hover{
+ transform: translateX(150px) scale(1.1) ;
+}
+
+
+ footer{
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+}
+.circle1{
+    display: flex;
+    gap:10px;
+}
+.circle2{
+    display: flex;
+    gap:10px;
+}
+.circle{
+     background-color: orange;
+     border-radius: 50%;
+     height: 30px;
+     width: 30px;
+   animation: dots 5s linear 0s infinite ;
+}
+.cir{
+    background-color: green;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  animation: dots 5s linear 0s infinite ;
+}
+@keyframes dots {
+    0%{
+
+    }
+    20%{
+        transform: translateX(40px);
+    }
+    40%{
+        transform: scale(1.25);
+    }
+    60%{
+        transform: translateX(30px);
+    }
+   80%{
+    transform: scale(0.5);
+   }
+   100%{
+    transform: translateX(-30px);
+   }
+}
+.idright>p>a{
+    color: orange;
+    font-size: 24px;
+    font-style: italic;
+}
+.idright>p>a:hover{
+    color: white;
+}
+.idright>p>a:active{
+    color: green;
+}
+@media (max-width :1035px) {
+    
+ .body{
+    display: flex;
+    flex-direction: column;
+ }
+ .left{
+    width : 95vw;
+    height: 65vh;
+    margin: 2vh;
+ }
+ .left h1{
+    font-size: 54px;
+    font-weight: 100;
+    transition: all 1s ease;
+}
+.left p{
+    font-size: 20px;
+}
+.right{
+    width : 95vw;
+    height: 85vh;
+    margin: 2vh;
+}
+.idright{
+    width : 60vw;
+    height: 25vh; 
+    margin: auto;
+}
+.in{
+    height: 120px;
+    width : 200px;
+}
+
+.left img{
+    height: 35vh;
+    width: 30vw;
+    float: left;
+    margin: 3vh;
+    margin-top: 5vh;
+    
+}
+h1:hover{
+    transform: translateX(30px) scale(1.1) ;
+   }
+   
+}
+
+
