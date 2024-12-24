@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Playwrite+CO+Guides&family=Playwrite+NZ+Guides&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: black;
+}
+#heading{
+    box-sizing: border-box;
+   width: 95vw;
+   text-align: center;
+   padding: 5%;
+   padding-top: 3%;
+}
+.nav-item {
+    font-size: 2rem;
+    color: solid black;
+}
+
+h2{
+    font-family: "Agu Display", serif;
+    font-size: 3rem;
+    color: white;
+}
+#reshma{
+     display: flex;
+     flex-direction: column;
+     position :relative;
+     left : 70%;
+}
+p{
+    color: white;
+    font-size: 2rem;
+    padding: 2vh;
+}
+.myskills{  
+        color: white;
+        font-size: 2rem;
+        
+}
+.out{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.in{
+    background-color: grey;
+     width: 90vw;
+     margin: 3vh;
+   
+}
+@media (max-width:800px) {
+h2{
+    font-size: 2rem;
+}    
+p{
+    font-size: 1rem;
+}
+.myskills{
+    font-size: 1rem;
+}
+.nav-item{
+    font-size: 1rem;
+    
+}
+
+}
+a:hover{
+    transform: scale(1.2);
+    
+}
+.js{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2vh;
+}
+
+#skills{
+    font-family: "Agu Display", serif;
+    color: solid white;
+}
+img{
+    margin: 2vh;
+    width: 25%;
+    height: 50%;
+    float: right;
+}
+#clickme{
+    color: white;
+    font-style: italic;
+    font-size: 1.4rem
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+#flex{
+    color: white;
+    background-color: grey;
+
+    font-size: 1.25rem;
+   display: flex;
+   width: 90vw;
+   margin: 3vh;
+   padding: 3vh;
+  flex-wrap: wrap;
+   justify-content: space-around;
+  a{
+    color: white;
+  }
+
+}
+
+
+
+
+#contact{
+    background-color: grey;
+    color: white;
+    width: 90vw;
+    margin: 3vh;
+    padding: 2vh;
+    
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Agu Display", serif;
+}
+
+
+
