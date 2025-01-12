@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwG8iobF01TZFz9kenNV1ZOpF9KPioMBNzA&s" type="image/x-icon">
+</head>
+<body>
+   
+    <div class="main">
+       
+        <button onclick="openform()" id="open">Open</button>
+        <button onclick="Closeform()" class="closebutton" id="close">
+          X
+        </button>
+        <div class="login">
+            
+                <form  >
+                    <div class="hide">
+                        <div id="mail">
+                            <label for="email">Enter E-mail ID :</label>
+                            <br>
+                            <input type="email" name="mail" id="email" class="mail" >
+                           
+                        </div>
+                        <br>
+                     <div id="password" >
+                        <label for ="pwd">Enter Password :</label>
+                        <br>
+                        <input type="password" name="password" id="pwd" class="pswd"  >
+                           
+                        <span>  <i class="fa fa-eye"  onclick="displaypwd()" id="openeye"></i></span>
+                        <span>  <i class="fa fa-eye-slash"  onclick="displaypwd()" id="closeeye"></i></span>
+                      
+                     </div>
+                    </div>
+                    <br>
+                    <p id="inpError" class="error" style="color: red;"></p>
+                 
+                 <div class="submit">
+                    <button type="submit" onclick="appendli()">Submit</button>
+
+                 </div>
+                 <p id="para">If you are a new user.<a href="#">Click here</a> to register</p>
+                </form>
+                <div id="last">
+                    <h3>Thanks for filling the form</h3>
+                    <p>Review my form</p>
+                 <span id="countup">0</span>   <i class="fa fa-thumbs-up" style="font-size: 34px;color: black;" onclick="counterup()" id="up"></i>
+                  <span id="countdown">0</span>  <i class="fa fa-thumbs-down" style="font-size: 34px;color: black;" onclick="counterdown()" id="down"></i>
+                </div>
+        </div>
+    </div>
+  
+    <script src="./script.js"></script>
+</body>
+</html>
