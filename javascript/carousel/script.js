@@ -33,3 +33,4 @@ function af(){
     update();
  }
  document.querySelector(".main").append(prev,aft);
+
