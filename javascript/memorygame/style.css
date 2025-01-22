@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 2%;
+}
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5px;
+    column-gap: 3px;
+    margin: 7%;
+    margin-top: 3%;
+}
+.child{
+    img{
+        display: none;
+    }
+    background-color: black;
+    color: white;
+    height: 25vh;
+    width: 25vw;
+    text-align: center;
+    padding: 5%;
+}
+.display{
+    height: 25vh;
+    width: 25vw;
+    color: white;
+}
+h1{
+    color: rebeccapurple;
+    text-align: center;
+
+}
+
