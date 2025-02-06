@@ -1,0 +1,265 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Playwrite+CO+Guides&family=Playwrite+NZ+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+.header{
+    background-color: pink;
+}
+.container-fluid{
+  margin: 1%;
+  padding: 1%;
+ background-color: black;  
+}
+.brand{
+    display: flex;
+    gap : 2vh;
+}
+.image{
+    img{
+       height: 70px;
+       width: 70px;
+    }
+   
+}
+.brandname{
+    font-family: "Lavishly Yours", serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+
+#navbarSupportedContent{
+    display: flex;
+    justify-content: space-around;
+}
+.cart{
+    font-size: 30px;
+    img{
+        height: 50px;
+        width: 50px;
+    }
+}
+#listItems{
+    margin: 2%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+   
+}
+.productDivClass{
+   margin: 5%;
+    height: 44vh;
+    background-color: pink;
+    color: black;
+    box-shadow: 5px 5px 7px white;
+    width: 22vw;
+   text-align: center;
+   padding: 2px;
+}
+.itemImage{
+    height: 15vh;
+    width: 8vw;
+}
+.cartbtn{
+    background-color: black;
+    color: pink;
+    padding: 2%;
+    box-shadow: 2px 2px 3px white;
+
+}
+.cartbtn:hover{
+    transform: scale(1.1);
+}
+#show{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.names{
+    margin: 5%;
+    background-color: black;
+    
+    color: pink;
+    text-align: center;
+    padding: 2%;
+    cursor: pointer;
+
+}
+.names:hover{
+    transform: scale(1.1);
+}
+#searchbtn{
+    background-color: pink;
+    color: black;
+}
+#inp{
+    color:black;
+    
+}
+#carouselExample{
+    margin: 1vw;
+    img{
+        height: 60vh;
+        width: 96vw;
+    }
+}
+#listItem{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+   text-align: center;
+  
+
+}
+.fl{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+.removeBtn{
+    background-color: red;
+    color: white;
+    height: 60%;
+    padding: 1vh;
+  
+}
+.checkout{
+    position: relative;
+    right: 0%;
+    bottom: 2%;
+    padding: 2vh;
+    font-size: 20px;
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+}
+.display{
+    font-size: 36px;
+}
+.font{
+    font-size: 28px;
+    color: black;
+}
+.cartImage{
+    
+        height: 15vh;
+        width: 8vw;
+    
+}
+@media (max-width:1200px) {
+    #show{
+        
+        grid-template-columns: repeat(4,1fr);
+    
+    }
+    #listItems{
+       
+        grid-template-columns: repeat(3,1fr);
+        
+       
+    }
+    .cart{
+        font-size: 28px;
+        img{
+            height: 48px;
+            width: 48px;
+        }
+    }
+    .productDivClass{
+        margin: 4%;
+         height: 45vh;
+       
+         width: 28vw;
+        
+        padding: 2px;
+     }
+     .font{
+        font-size: 24px;
+    }
+
+
+}
+@media (max-width:900px) {
+    #show{
+        
+        grid-template-columns: repeat(3,1fr);
+    
+    }
+    #listItems{
+       
+        grid-template-columns: repeat(2,1fr);
+        
+       
+    }
+    .cart{
+        font-size: 25px;
+        img{
+            height: 45px;
+            width: 45px;
+        }
+    }
+    .productDivClass{
+       margin: 4%;
+        height: 45vh;
+      
+        width: 38vw;
+       
+       padding: 2px;
+    }
+    .font{
+        font-size: 20px;
+    }
+
+}
+@media (max-width:650px) {
+    #show{
+        
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    #listItems{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .cart{
+        font-size: 20px;
+        img{
+            height: 40px;
+            width: 40px;
+        }
+    }
+    .productDivClass{
+       
+         height: 50vh;
+       
+         width: 50vw;
+        
+        padding: 2px;
+     }
+     .display{
+        font-size: 28px;
+    }
+    .font{
+        font-size: 16px;
+    }
+    .cartImage{
+    
+        height: 8vh;
+        width: 8vw;
+    
+}
+
+}
